@@ -1,0 +1,46 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&display=swap");
+
+$carflow-primary-color: #d6392a;
+$carflow-black-color: #505050;
+$carflow-grid-size: 16px;
+
+.wp-block-schakel-opdrachten-block-opdracht3-fancypager {
+	color: $carflow-black-color;
+	margin: 0 auto;
+	max-width: 740px;
+	padding: $carflow-grid-size * 2;
+
+	& .title {
+		font-family: "Poppins", Arial, sans-serif;
+		font-size: 2rem;
+		margin: 0 auto 2rem;
+		color: darken($color: $carflow-black-color, $amount: 3);
+	}
+
+	& .content {
+		padding: $carflow-grid-size * 2;
+		font-family: "Inter", Arial, sans-serif;
+		font-size: 1rem;
+		background-color: white;
+
+		-webkit-box-shadow: 0px 5px 6px 0px rgba(140, 41, 41, 0.3);
+		-moz-box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 0.3);
+		box-shadow: 0px 5px 6px 0px rgba(50, 50, 50, 0.3);
+
+		p {
+			line-height: 1.6;
+		}
+
+		a {
+			color: $carflow-primary-color;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+}
